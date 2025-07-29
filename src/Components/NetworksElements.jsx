@@ -1,11 +1,12 @@
 import React from 'react';
-import logo1 from '../assets/networks/1.png'; 
-import logo2 from '../assets/networks/2.jpg'; 
-import logo3 from '../assets/networks/3.png'; 
-import logo4 from '../assets/networks/4.png'; 
-import logo5 from '../assets/networks/5.png'; 
+import network1 from '../assets/network1.png';
+import network2 from '../assets/network2.png';
+import network3 from '../assets/network3.png';
+import network4 from '../assets/network4.png';
+import network5 from '../assets/network5.png';
+import network6 from '../assets/network6.png';
 
-const logos = [logo1,logo2,logo3,logo4,logo5];
+const logos = [network1, network2, network3, network4, network5, network6];
 
 export default function NetworksElements() {
   return (
