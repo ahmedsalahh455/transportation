@@ -19,17 +19,15 @@ const logos = [
 const ClientsSlider = () => {
   return (
     <div className="py-12 bg-white">
-<div className="text-center mb-20">
-  {/* Title above the shape */}
-  <h2 className="text-3xl font-bold text-main mb-2">Our Clients</h2>
-
-  {/* Decorative shape line with icon */}
-  <div className="flex justify-center items-center">
-    <div className="border border-main h-1 w-16 bg-main mx-2"></div>
-    <FaBoxOpen size={22} className="text-sec" />
-    <div className="border border-main h-1 w-16 bg-main mx-2"></div>
-  </div>
-</div>      <Swiper
+      <div className="text-center flex flex-col gap-2 mb-5">
+        <h1 className="text-main text-4xl font-semibold">Our Clients</h1>
+        <h2 className="text-3xl font-bold flex justify-center items-center mb-6">
+          <div className="border border-main h-1 w-16 bg-main mx-2"></div>
+          <FaBoxOpen size={32} className="text-sec" />
+          <div className="border border-main h-1 w-16 bg-main mx-2"></div>
+        </h2>
+      </div>
+      <Swiper
         modules={[Autoplay, FreeMode, Pagination]}
         slidesPerView={3}
         spaceBetween={30}

@@ -12,14 +12,11 @@ export default function Home() {
   return (
     <div>
       <MainSection/>
-<<<<<<< HEAD
+      <OurServices/>
       <ClientsSlider />
-<WhatWeDoSection isHomepage={true} />
+      <WhatWeDoSection isHomepage={true} />
       <Networks />
       <ConsultationSection/>
-    </div>  
-=======
-      <OurServices/>
         <div className="fixed bottom-6 left-6 z-50 ">
         <button
           className="bg-sec border-main text-main border-2 p-3 rounded-full flex items-center transition-all duration-300"
@@ -28,6 +25,5 @@ export default function Home() {
         </button>
       </div>
     </div>
->>>>>>> 89892d6 (Update: Added)
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaBoxOpen, FaRegArrowAltCircleRight } from 'react-icons/fa';
-import service1 from "../assets/custom-clearance.png"; 
+import service1 from "../assets/custom-clearance2.png"; 
 import service2 from "../assets/air-plane.png"; 
 import service3 from "../assets/shipping.png"; 
 import service4 from "../assets/shipping (1).png"; 
@@ -62,7 +62,7 @@ export default function OurServices() {
   ];
 
   return (
-    <div className="mx-auto max-w-[85%] py-12">
+    <div className="mx-auto max-w-[90%] py-12">
       <div className="text-center flex flex-col gap-2 mb-5">
         <h1 className="text-main text-4xl font-semibold">Our Services</h1>
         <p className="text-gray-600 text-base">

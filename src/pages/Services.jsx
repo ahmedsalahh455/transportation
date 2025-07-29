@@ -1,7 +1,7 @@
 import React from 'react';
 import heroImg from '../assets/bg2.avif';
 import { FaRegArrowAltCircleRight } from 'react-icons/fa';
-import service1 from "../assets/custom-clearance.png"; 
+import service1 from "../assets/custom-clearance2.png"; 
 import service2 from "../assets/air-plane.png"; 
 import service3 from "../assets/shipping.png"; 
 import service4 from "../assets/shipping (1).png"; 
@@ -70,13 +70,13 @@ export default function Services() {
                 style={{ backgroundImage: `url(${heroImg})` }}
             ></div>
             <div className="absolute inset-0 bg-[rgba(35,56,118,0.7)] z-20"></div>
-            <div className="relative z-30 flex flex-col items-center justify-end h-full text-white text-center max-w-[85%] mx-auto pt-32">
+            <div className="relative z-30 flex flex-col items-center justify-end h-full text-white text-center max-w-[90%] mx-auto pt-32">
                 <h1 className="text-5xl font-bold mb-2">Services</h1>
                 <p className=""> <Link to="/" className='hover:text-sec underline mr-1'>Home</Link> / Services</p>
             </div>
         </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-20 max-w-[85%] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-20 max-w-[90%] mx-auto">
             {services.map((serv) => (
               <div key={serv.id} className="rounded-lg bg-main p-5 flex flex-col items-center justify-center text-center gap-5 hover:shadow-lg transition-shadow duration-300">
                 <img src={serv.image} alt="icon" className="h-20 w-20" />

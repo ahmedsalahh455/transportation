@@ -41,7 +41,7 @@ export default function ContactUs() {
           style={{ backgroundImage: `url(${heroImg})` }}
         ></div>
         <div className="absolute inset-0 bg-[rgba(35,56,118,0.7)] z-20"></div>
-        <div className="relative z-30 flex flex-col items-center justify-end h-full text-white text-center max-w-[85%] mx-auto pt-32">
+        <div className="relative z-30 flex flex-col items-center justify-end h-full text-white text-center max-w-[90%] mx-auto pt-32">
           <h1 className="text-5xl font-bold mb-2">Contact Us</h1>
           <p>
             <Link to="/" className="hover:text-sec underline mr-1">Home</Link> / Contact Us
@@ -49,7 +49,7 @@ export default function ContactUs() {
         </div>
       </div>
 
-      <section className="bg-white py-12 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[85%] mx-auto">
+      <section className="bg-white py-12 grid grid-cols-1 md:grid-cols-2 gap-10 max-w-[90%] mx-auto">
         <div>
           <h2 className="text-4xl font-bold mb-6">Call To Action</h2>
 
