@@ -12,8 +12,8 @@ export default function MainSection() {
         style={{ backgroundImage: `url(${heroImg})` }}
       ></div>
       <div className="absolute inset-0 bg-[rgba(35,56,118,0.5)]"></div>
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-center h-full text-white text-center max-w-[90%] mx-auto">
-        <div className="w-2/3 text-start">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-center h-full text-white text-center max-w-[90%] mx-auto py-80 md:py-0">
+        <div className="w-full md:w-2/3 text-start">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Welcome to Air Sea City Logistics
           </h1>

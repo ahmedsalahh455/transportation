@@ -100,5 +100,14 @@
         "answer": "We accept wire transfer, credit card, and cash payments in Egypt."
       }
     ]
+  },
+  "network": {
+    "title": "Networks"
+  },
+  "client": {
+    "title": "Our Clients"
+  },
+   "aboutUs": {
+    "title": "About Us"
   }
 }
