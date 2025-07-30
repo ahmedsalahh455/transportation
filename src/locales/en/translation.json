@@ -1,0 +1,104 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "service": "Services",
+  "insurance": "Insurance",
+  "air_freight": "Air Freight",
+  "customs": "Customs Clearance",
+  "networks": "Networks",
+  "clients": "Our Clients",
+  "contactu": "Contact Us",
+  "arabic": "العربية",
+  "cargo": "Cargo",
+  "hero": {
+    "title": "Welcome to ElKhalifa Cargo",
+    "description": "Welcome to ElKhalifa Cargo, your trusted partner in shipping and logistics solutions since 1969. With over 50 years of experience, we offer fully integrated services including air and sea freight, customs clearance, transportation, warehousing, and insurance, both locally and internationally. We don’t just move goods, we deliver trust, precision, and commitment in every shipment.",
+    "about_btn": "About Us"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Choose the right service for your needs and let us take care of the rest.",
+    "read_more": "Read More",
+    "customs": {
+      "name": "Customs Clearance",
+      "desc": "We ensure fast and secure clearance for all shipments through customs ports."
+    },
+    "air": {
+      "name": "Air Freight",
+      "desc": "The fastest solution is to get your goods delivered anywhere in the world."
+    },
+    "sea": {
+      "name": "Sea Freight",
+      "desc": "Flexible international shipping options through all major ports."
+    },
+    "special": {
+      "name": "Special Cargo",
+      "desc": "Expert handling of sensitive, oversized, or complex shipments."
+    },
+    "insurance": {
+      "name": "Insurance",
+      "desc": "Full protection for your shipment against risks, locally and globally."
+    },
+    "packing": {
+      "name": "Packing",
+      "desc": "Professional packing that protects your cargo, no matter the type."
+    },
+    "storage": {
+      "name": "Storage",
+      "desc": "Secure and flexible storage solutions tailored to your cargo needs."
+    },
+    "door": {
+      "name": "Door-to-Door",
+      "desc": "Complete delivery from origin to destination, fast, direct, and reliable."
+    }
+  },
+  "footer": {
+    "services": "Services",
+    "about": "About Us",
+    "team": "Our Team",
+    "networks": "Networks",
+    "clients": "Our Clients",
+    "news": "News",
+    "careers": "Careers",
+    "contact": "Contact Us",
+    "address": "43 Asmaa Fahmy st., Ard El-Golf, Heliopolis, Cairo, Egypt",
+    "phone": "+20222900438",
+    "email": "Info@elkhalifacargo.com",
+    "copyright": "Copyright 2025 © Khalifa Cargo — Developed by Sedra Media"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "cta": "Call To Action",
+    "faq_title": "FAQ",
+    "form": {
+      "name": "Type Full Name",
+      "email": "Type Email",
+      "phone": "Type Phone Number",
+      "message": "Type Message...",
+      "robot": "I'm not a robot",
+      "send": "Send"
+    },
+    "faq": [
+      {
+        "question": "Which countries do you ship to?",
+        "answer": "We ship to most countries worldwide, with a focus on the Gulf region, Europe, and the US. Contact us to confirm your destination."
+      },
+      {
+        "question": "What types of shipping do you offer?",
+        "answer": "We offer air, sea, and land freight options depending on destination and budget."
+      },
+      {
+        "question": "How long does shipping take?",
+        "answer": "Shipping time varies by destination. Contact us for an accurate quote."
+      },
+      {
+        "question": "How can I track my shipment?",
+        "answer": "We provide tracking links or direct updates via email/WhatsApp."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept wire transfer, credit card, and cash payments in Egypt."
+      }
+    ]
+  }
+}
