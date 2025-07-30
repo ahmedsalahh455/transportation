@@ -6,15 +6,21 @@ import 'swiper/css/pagination';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import { FaBoxOpen } from 'react-icons/fa';
+import client1 from '../assets/Clients/Client1.png'
+import client2 from '../assets/Clients/Client2.png'
+import client3 from '../assets/Clients/Client3.png'
+import client4 from '../assets/Clients/Client4.jpeg'
+import client5 from '../assets/Clients/Client5.png'
+import client6 from '../assets/Clients/Client6.png'
+import client7 from '../assets/Clients/Client7.png'
+import client8 from '../assets/Clients/Client8.png'
+import client9 from '../assets/Clients/Client9.png'
+import client10 from '../assets/Clients/Client10.png'
+
 
 const logos = [
-  '/logos/client1.png',
-  '/logos/client2.png',
-  '/logos/client3.png',
-  '/logos/client4.png',
-  '/logos/client5.png',
-  '/logos/client6.png',
-];
+  client1,
+  client2, client3, client4, client5, client6, client7 , client8 , client9 , client10 ]
 
 const ClientsSlider = () => {
   return (
@@ -45,6 +51,7 @@ const ClientsSlider = () => {
           768: { slidesPerView: 4 },
           1024: { slidesPerView: 5 },
         }}
+        className='client-swiper'
       >
         {logos.map((logo, index) => (
           <SwiperSlide key={index}>
@@ -52,15 +59,15 @@ const ClientsSlider = () => {
               <img
                 src={logo}
                 alt={`Client ${index + 1}`}
-                className="h-full object-contain grayscale hover:grayscale-0 transition duration-300"
+      className="max-w-[60%]  object-contain hover:grayscale-0 transition duration-300"
               />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
       <div className="swiper-pagination mt-4"></div>
-     <style>
-  {`
+      <style>
+        {`
     .swiper-pagination {
       margin-top: 1rem;
       text-align: center;
@@ -78,8 +85,15 @@ const ClientsSlider = () => {
     .swiper-pagination-bullet-active {
       background-color: #2333bb !important;
     }
+
+    .client-swiper{
+    
+      height: 250px;
+      padding-top:3rem
+    }
+
   `}
-</style>
+      </style>
     </div>
   );
 };

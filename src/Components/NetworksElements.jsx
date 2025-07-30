@@ -2,11 +2,8 @@ import React from 'react';
 import network1 from '../assets/network1.png';
 import network2 from '../assets/network2.png';
 import network3 from '../assets/network3.png';
-import network4 from '../assets/network4.png';
-import network5 from '../assets/network5.png';
-import network6 from '../assets/network6.png';
 
-const logos = [network1, network2, network3, network4, network5, network6];
+const logos = [network1, network2, network3];
 
 export default function NetworksElements() {
   return (
@@ -15,7 +12,7 @@ export default function NetworksElements() {
         {logos.map((logo, index) => (
           <div
             key={index}
-            className="w-[212px] h-[200px] bg-white border border-gray-200 shadow-md rounded-md flex items-center justify-center"
+            className="w-[212px] h-[200px] bg-white border border-gray-200 shadow-md rounded-md flex items-center justify-center transition-all duration-300 transform hover:scale-105 hover:shadow-2xl"
           >
             <img
               src={logo}

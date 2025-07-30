@@ -1,28 +1,31 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
-
-import translationEN from "./locales/en/translation.json";
-import translationAR from "./locales/ar/translation.json";
+// src/i18n.js
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
 
 const resources = {
   en: {
-    translation: translationEN
+    translation: {
+      welcome: "Welcome",
+      home: "Home",
+    },
   },
   ar: {
-    translation: translationAR
-  }
+    translation: {
+      welcome: "مرحبًا",
+      home: "الرئيسية",
+    },
+  },
 };
 
 i18n
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: "en",
+    lng: 'en',
+    fallbackLng: 'en',
     interpolation: {
-      escapeValue: false
-    }
+      escapeValue: false,
+    },
   });
 
 export default i18n;

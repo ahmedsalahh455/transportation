@@ -1,5 +1,5 @@
 import React from 'react';
-import consultationImg from '../assets/contact-us-image.webp'; // Replace with your actual image path
+import consultationImg from '../assets/consult.jpg'; // Replace with your actual image path
 
 const ConsultationSection = () => {
   return (
